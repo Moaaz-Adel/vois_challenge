@@ -67,8 +67,11 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 * After installing Prerequisites, just run the follwoing command inside the directory
 
    ```sh
-   mvn test
+   mvn test && allure generate --clean && allure serve
    ```
+   
+### After testing finishes, a report will be opened automatically like the following
+
    
    
 ### Scenarios
