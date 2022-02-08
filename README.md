@@ -25,6 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## VOIS Challenge
 
+![image](https://user-images.githubusercontent.com/66737098/153053941-a3c0cccc-bfce-47f7-a477-7acc25ae82ed.png)
+
+
 ### Built With
 
 * [Java version 17](https://https://www.java.com/)
