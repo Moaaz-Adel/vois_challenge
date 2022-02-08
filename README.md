@@ -67,8 +67,20 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 * After installing Prerequisites, just run the follwoing command inside the directory
 
    ```sh
-   mvn test
+   mvn test && allure generate --clean && allure serve
    ```
    
+### After testing finishes, a report will be opened automatically like the following
+
+   
+   
+### Scenarios
+
+Please follow this link for interactive Mind-Map:
+
+   ====>  [MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
+   
+   ![image](https://user-images.githubusercontent.com/66737098/153052818-920b117f-e387-4e91-96ba-6ea4d5a0fb4a.png)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
