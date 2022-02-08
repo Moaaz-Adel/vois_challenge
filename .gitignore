@@ -13,6 +13,9 @@
 # Target Folder
 target/
 
+# Allure Report Folder
+allure-results/
+
 # Package Files #
 *.jar
 *.war
