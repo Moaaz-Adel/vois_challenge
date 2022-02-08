@@ -69,21 +69,13 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    cd vois_challenge
    ```
 
-### Run the Project with one command
-
+### Run Tests
 * After installing Prerequisites, just run the follwoing command inside the directory
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
+   ```sh
+   mvn test
+   ```
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
