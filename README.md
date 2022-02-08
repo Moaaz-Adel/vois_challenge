@@ -1,10 +1,4 @@
 <div id="top"></div>
-<!--
-*** that would make this better, please fork the repo and create a pull request
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -35,11 +29,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## VOIS Challenge
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Java version 17](https://https://www.java.com/)
 * [Selenium Webdriver](https://www.selenium.dev/)
@@ -62,17 +54,28 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+Download and install *JAVA [https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04]
+
   ```sh
   npm install npm@latest -g
   ```
+  
+  Download and install *MAVEN [https://maven.apache.org/install.html] 
 
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone this repo inside any directory
+   ```sh
+   git clone https://github.com/Moaz-Adel/vois_challenge.git
+   ```
+2. Change current directory to be inside the cloned repo
+   ```sh
+   cd vois_challenge
+   ```
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+### Run the Project with one command
+
+* After installing Prerequisites, just run the follwoing command inside the directory
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
