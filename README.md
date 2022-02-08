@@ -7,14 +7,14 @@
     <li>
       <a href="#About-the-Challenge">About The Challenge</a>
       <ul>
-        <li><a href="#built-`">Built With</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Run-Tests">Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -63,7 +63,7 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    cd vois_challenge
    ```
 
-### Run Tests
+### Run-Tests
 * After installing Prerequisites, just run the follwoing command inside the directory
 
    ```sh
