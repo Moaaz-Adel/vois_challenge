@@ -75,6 +75,9 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    
 ### After testing finishes, a report will be opened automatically like the following
 
+![image](https://user-images.githubusercontent.com/66737098/153090168-10894799-0ba8-41eb-8081-49504141588a.png)
+
+-----------------
 
 
 ## Challenges
@@ -95,11 +98,10 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 
 > All interactions are configured refactored to include
 > "Explicit Watis" to decrease Flakeness
---------------------------------
 
 > Following Page Object Model Design Pattern
 > Following Coding Standards and Best Practices
-
+--------------------------------
    
    
 ### Scenarios
