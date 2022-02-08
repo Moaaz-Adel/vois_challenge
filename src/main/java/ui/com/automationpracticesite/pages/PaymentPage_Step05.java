@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,7 +13,7 @@ public class PaymentPage_Step05 {
     private final By bankWireOption = By.partialLinkText("Pay by bank wire");
 
     public OrderSummaryPage checkoutFinalStep() {
-        ElementActions.click(driver, bankWireOption);
+        Actions.click(driver, bankWireOption);
         return new OrderSummaryPage(driver);
     }
 }

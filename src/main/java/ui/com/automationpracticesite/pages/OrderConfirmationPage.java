@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -15,7 +15,7 @@ public class OrderConfirmationPage {
     }
 
     public OrderHistoryPage navigateToOrdersHistoryPage() {
-        ElementActions.click(driver, orders);
+        Actions.click(driver, orders);
         return new OrderHistoryPage(driver);
     }
 

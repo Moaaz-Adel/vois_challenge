@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,7 +14,7 @@ public class AddressPage_Step3 {
     }
 
     public ShippingPage_Step04 proceedAddressStep4() {
-        ElementActions.click(driver, proceedToCheckOutBtn);
+        Actions.click(driver, proceedToCheckOutBtn);
         return new ShippingPage_Step04(driver);
     }
 

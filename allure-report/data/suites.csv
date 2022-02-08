@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Feb 08 18:50:56 EET 2022","Tue Feb 08 18:51:54 EET 2022","57649","Surefire suite","Surefire test","tests.TestBase","tests.TestBase","placeOrderTest","placeOrderTest",""

@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -16,8 +16,8 @@ public class AuthPage {
     }
 
     public CreateAccountPage provideEmailStep(String emailAddress) {
-        ElementActions.type(driver, emailAddressField, emailAddress);
-        ElementActions.click(driver, submitCreate);
+        Actions.type(driver, emailAddressField, emailAddress);
+        Actions.click(driver, submitCreate);
         return new CreateAccountPage(driver);
     }
 

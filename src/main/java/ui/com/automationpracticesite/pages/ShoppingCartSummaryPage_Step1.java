@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,7 +14,7 @@ public class ShoppingCartSummaryPage_Step1 {
     }
 
     public AddressPage_Step3 proceedToCheckout() {
-        ElementActions.click(driver, proceedToCheckOutBtn);
+        Actions.click(driver, proceedToCheckOutBtn);
         return new AddressPage_Step3(driver);
     }
 }

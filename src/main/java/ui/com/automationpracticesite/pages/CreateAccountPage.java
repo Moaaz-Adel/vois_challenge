@@ -1,9 +1,8 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class CreateAccountPage {
 
@@ -64,31 +63,31 @@ public class CreateAccountPage {
             String addressAlias
     ) {
         if(title == "male") {
-            ElementActions.click(driver, titleMr);
+            Actions.click(driver, titleMr);
         } else {
-            ElementActions.click(driver, titleMrs);
+            Actions.click(driver, titleMrs);
         }
-        ElementActions.type(driver, firstNameTxt, firstName);
-        ElementActions.type(driver, lastNameTxt, lastName);
-        ElementActions.type(driver, passwordTxt, password);
-        ElementActions.selectFromDropDown(driver, dateOfBirthDaySelect, dateOfBirthDay);
-        ElementActions.selectFromDropDown(driver, dateOfBirthMonthSelect, dateOfBirthMonth);
-        ElementActions.selectFromDropDown(driver, dateOfBirthYearSelect, dateOfBirthYear);
-        ElementActions.click(driver, newsletterCheckbox);
-        ElementActions.click(driver, uniformOptionCheckbox);
-        ElementActions.type(driver, yourAddressFirstNameTxt, yourAddressFirstName);
-        ElementActions.type(driver, yourAddressLastNameTxt, yourAddressLastName);
-        ElementActions.type(driver, companyTxt, company);
-        ElementActions.type(driver, addressTxt, address);
-        ElementActions.type(driver, addressLine2Txt, addressLine2);
-        ElementActions.type(driver, cityTxt, city);
-        ElementActions.selectFromDropDown(driver, stateSelect, state);
-        ElementActions.type(driver, zipPostalCodeTxt, String.valueOf(zipPostalCode));
-        ElementActions.type(driver, additionalInformationTxt, additionalInformation);
-        ElementActions.type(driver, homePhoneTxt, homePhone);
-        ElementActions.type(driver, mobilePhoneTxt, mobilePhone);
-        ElementActions.type(driver, addressAliasTxt, addressAlias);
-        ElementActions.click(driver, registerBtn);
+        Actions.type(driver, firstNameTxt, firstName);
+        Actions.type(driver, lastNameTxt, lastName);
+        Actions.type(driver, passwordTxt, password);
+        Actions.selectFromDropDown(driver, dateOfBirthDaySelect, dateOfBirthDay);
+        Actions.selectFromDropDown(driver, dateOfBirthMonthSelect, dateOfBirthMonth);
+        Actions.selectFromDropDown(driver, dateOfBirthYearSelect, dateOfBirthYear);
+        Actions.click(driver, newsletterCheckbox);
+        Actions.click(driver, uniformOptionCheckbox);
+        Actions.type(driver, yourAddressFirstNameTxt, yourAddressFirstName);
+        Actions.type(driver, yourAddressLastNameTxt, yourAddressLastName);
+        Actions.type(driver, companyTxt, company);
+        Actions.type(driver, addressTxt, address);
+        Actions.type(driver, addressLine2Txt, addressLine2);
+        Actions.type(driver, cityTxt, city);
+        Actions.selectFromDropDown(driver, stateSelect, state);
+        Actions.type(driver, zipPostalCodeTxt, String.valueOf(zipPostalCode));
+        Actions.type(driver, additionalInformationTxt, additionalInformation);
+        Actions.type(driver, homePhoneTxt, homePhone);
+        Actions.type(driver, mobilePhoneTxt, mobilePhone);
+        Actions.type(driver, addressAliasTxt, addressAlias);
+        Actions.click(driver, registerBtn);
         return new MyAccountPage(driver);
     }
 

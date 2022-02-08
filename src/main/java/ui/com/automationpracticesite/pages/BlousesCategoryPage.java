@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -19,8 +19,8 @@ public class BlousesCategoryPage {
     public ShoppingCartSummaryPage_Step1 selectAndCheckout() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.querySelector('li.first-item-of-mobile-line').classList.add('hovered')");
-        ElementActions.click(driver, resultedProduct);
-        ElementActions.click(driver, proceedingToCheckOutBtn);
+        Actions.click(driver, resultedProduct);
+        Actions.click(driver, proceedingToCheckOutBtn);
         return new ShoppingCartSummaryPage_Step1(driver);
     }
 

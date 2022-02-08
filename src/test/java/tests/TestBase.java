@@ -1,68 +1,49 @@
 package tests;
 
-import com.github.javafaker.Faker;
-import helpers.ElementActions;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import base.BaseTests;
+
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
+
 import org.testng.annotations.Test;
 import ui.com.automationpracticesite.pages.AuthPage;
 
-public class TestBase {
-
-    WebDriver driver;
-
-    Faker faker = new Faker();
-
-    private By search = By.xpath("//input[@type='text']");
-
-    @BeforeSuite
-    public void test1() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-    }
-    public void test() {
-        ElementActions.type(driver, search, "test");
-//        driver.quit();
-    }
+public class TestBase extends BaseTests {
 
     @Test
-    public void test2() throws InterruptedException {
+    public void placeOrderTest() {
         Assert.assertEquals(
                 new AuthPage(driver).provideEmailStep(
                         faker.internet().emailAddress()
                 ).createAccount(
-                        "male",
-                        "Moazawdawd",
-                        "Adelawdaw",
-                        "akdwmkwd@",
-                        2,
-                        1,
-                        5,
-                        "adwadwaw",
-                        "dawd",
-                        "adwawd",
-                        "dawdaw",
-                        "awdawd",
-                        "adawdaw",
-                        2,
+                                randomTitleSelection(),
+                                faker.name().firstName(),
+                                faker.name().lastName(),
+                                faker.internet().password(),
+                                generateRandomNumber(1, 30),
+                                generateRandomNumber(1, 12),
+                                generateRandomNumber(1, 50),
+                                faker.address().streetName(),
+                                faker.address().firstName(),
+                                faker.company().name(),
+                                faker.address().streetName(),
+                                faker.address().secondaryAddress(),
+                                faker.address().streetAddress(),
+                                generateRandomNumber(1, 5),
                         55555,
-                        "dawd",
-                        "03210531510",
-                        "0123156516",
-                        "adw"
+                                faker.name().fullName(),
+                                "012345657",
+                                "012345657",
+                                faker.name().lastName()
                         )
                         .chooseBlousesFromWomenCategory()
                         .selectAndCheckout()
                         .proceedToCheckout()
                         .proceedAddressStep4()
-                        .proceedShippingStep5().checkoutFinalStep().confirmOrder().navigateToOrdersHistoryPage(),
-                "Test"
+                        .proceedShippingStep5().checkoutFinalStep()
+                        .confirmOrder()
+                        .navigateToOrdersHistoryPage()
+                        .count(),
+                1
         );
     }
 }

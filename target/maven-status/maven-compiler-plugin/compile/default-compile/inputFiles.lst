@@ -1,11 +1,10 @@
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/OrderConfirmationPage.java
+/home/moaz/IdeaProjects/vois_task/src/main/java/helpers/Actions.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/AddressPage_Step3.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/CreateAccountPage.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/OrderSummaryPage.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/OrderHistoryPage.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/BlousesCategoryPage.java
-/home/moaz/IdeaProjects/vois_task/src/main/java/helpers/ElementHelpers.java
-/home/moaz/IdeaProjects/vois_task/src/main/java/helpers/ElementActions.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/ShoppingCartSummaryPage_Step1.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/AuthPage.java
 /home/moaz/IdeaProjects/vois_task/src/main/java/ui/com/automationpracticesite/pages/PaymentPage_Step05.java

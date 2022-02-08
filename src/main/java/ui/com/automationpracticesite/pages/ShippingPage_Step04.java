@@ -1,6 +1,6 @@
 package ui.com.automationpracticesite.pages;
 
-import helpers.ElementActions;
+import helpers.Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -15,8 +15,8 @@ public class ShippingPage_Step04 {
     }
 
     public PaymentPage_Step05 proceedShippingStep5() {
-        ElementActions.click(driver, termsOfService);
-        ElementActions.click(driver, proceedToCheckOutBtn);
+        Actions.click(driver, termsOfService);
+        Actions.click(driver, proceedToCheckOutBtn);
         return new PaymentPage_Step05(driver);
     }
 }
