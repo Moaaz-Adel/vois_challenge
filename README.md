@@ -75,7 +75,7 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 
 Please follow this link for interactive Mind-Map:
 
-[MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
+   ====>[MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
    
    ![image](https://user-images.githubusercontent.com/66737098/153052818-920b117f-e387-4e91-96ba-6ea4d5a0fb4a.png)
 
