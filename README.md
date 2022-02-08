@@ -55,13 +55,13 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
-Download and install *JAVA [https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04]
+Download and install [JAVA](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04)
 
-  ```sh
-  npm install npm@latest -g
-  ```
+   ```sh
+   npm install npm@latest -g
+   ```
   
-  Download and install *MAVEN [https://maven.apache.org/install.html] 
+   Download and install [MAVEN](https://maven.apache.org/install.html)
 
 
 1. Clone this repo inside any directory
