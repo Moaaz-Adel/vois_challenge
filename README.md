@@ -89,10 +89,15 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
   5. Confirm order by selecting bank wire optiob
   6. Validate order was placed from order history page
 
-Note:
-```
-All interactions are configured refactored to include "Explicit Watis" to decrease Flakeness
-```
+
+
+##Notes:
+
+> All interactions are configured refactored to include
+> "Explicit Watis" to decrease Flakeness
+
+
+=============
 
 
    
