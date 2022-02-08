@@ -32,7 +32,7 @@ public class TestBase {
     }
 
     @Test
-    public void test2() {
+    public void test2() throws InterruptedException {
         Assert.assertEquals(
                 new AuthPage(driver).provideEmailStep(
                         faker.internet().emailAddress()
@@ -59,8 +59,9 @@ public class TestBase {
                         )
                         .chooseBlousesFromWomenCategory()
                         .selectAndCheckout()
-                        .confirmOrder()
-                        .navigateToOrdersHistoryPage(),
+                        .proceedToCheckout()
+                        .proceedAddressStep4()
+                        .proceedShippingStep5().checkoutFinalStep().confirmOrder().navigateToOrdersHistoryPage(),
                 "Test"
         );
     }

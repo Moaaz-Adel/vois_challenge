@@ -2,6 +2,7 @@ package ui.com.automationpracticesite.pages;
 
 import helpers.ElementActions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 public class BlousesCategoryPage {
@@ -15,10 +16,12 @@ public class BlousesCategoryPage {
         this.driver = driver;
     }
 
-    public OrderSummaryPage selectAndCheckout() {
+    public ShoppingCartSummaryPage_Step1 selectAndCheckout() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelector('li.first-item-of-mobile-line').classList.add('hovered')");
         ElementActions.click(driver, resultedProduct);
         ElementActions.click(driver, proceedingToCheckOutBtn);
-        return new OrderSummaryPage(driver);
+        return new ShoppingCartSummaryPage_Step1(driver);
     }
 
 }

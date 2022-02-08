@@ -6,9 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 public class OrderSummaryPage {
 
-
     private final WebDriver driver;
-    private By confirmingOrderBtn = By.partialLinkText("I confirm my order");
+    private final By confirmingOrderBtn = By.xpath("//span[text()='I confirm my order']");
 
     public OrderSummaryPage(WebDriver driver) {
         this.driver = driver;
@@ -18,5 +17,4 @@ public class OrderSummaryPage {
         ElementActions.click(driver, confirmingOrderBtn);
         return new OrderConfirmationPage(driver);
     }
-
 }

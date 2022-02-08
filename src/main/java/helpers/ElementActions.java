@@ -31,6 +31,7 @@ public class ElementActions {
     public static void hoverThenClick(WebDriver driver, By elementLocator, By elementToBeClicked) {
         Actions actions = new Actions(driver);
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(elementLocator));
+        actions.moveToElement(driver.findElement(By.xpath("xpath")));
         WebElement myLoc = driver.findElement(elementLocator);
         WebElement myLoc2 = driver.findElement(elementToBeClicked);
         actions.moveToElement(myLoc).moveToElement(myLoc2).click().perform();

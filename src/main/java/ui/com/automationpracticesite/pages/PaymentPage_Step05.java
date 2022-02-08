@@ -6,18 +6,14 @@ import org.openqa.selenium.WebDriver;
 
 public class PaymentPage_Step05 {
     private final WebDriver driver;
+
     public PaymentPage_Step05(WebDriver driver) {
         this.driver = driver;
     }
-    private final By proceedToCheckOutBtn = By.partialLinkText("Proceed to checkout");
-    private final By termsOfServiceCheckbox = By.id("cgv");
     private final By bankWireOption = By.partialLinkText("Pay by bank wire");
 
-
-    public PaymentPage_Step05 checkoutFinalStep() {
+    public OrderSummaryPage checkoutFinalStep() {
         ElementActions.click(driver, bankWireOption);
-        ElementActions.click(driver, termsOfServiceCheckbox);
-        ElementActions.click(driver, proceedToCheckOutBtn);
-        return new PaymentPage_Step05(driver);
+        return new OrderSummaryPage(driver);
     }
 }

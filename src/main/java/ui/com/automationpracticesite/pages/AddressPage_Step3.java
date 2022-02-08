@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class AddressPage_Step3 {
 
     private final WebDriver driver;
-    private final By proceedToCheckOutBtn = By.partialLinkText("Proceed to checkout");
+    private final By proceedToCheckOutBtn = By.name("processAddress");
 
     public AddressPage_Step3(WebDriver driver) {
         this.driver = driver;
