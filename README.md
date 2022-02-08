@@ -75,6 +75,26 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    
 ### After testing finishes, a report will be opened automatically like the following
 
+
+
+## Challenges
+
+### Challenge #1 (UI)
+  Placing an order with UI Interaction by following these steps:
+  
+  1. CreateingSelect “Blouses” Subcategory in “Women” Category a new account user
+  2. Selecting “Blouses” Subcategory in “Women” Category
+  3. Select resulted product
+  4. Follow checkout procedure
+  5. Confirm order by selecting bank wire optiob
+  6. Validate order was placed from order history page
+
+Note:
+```
+All interactions are configured refactored to include "Explicit Watis" to decrease Flakeness
+```
+
+
    
    
 ### Scenarios
