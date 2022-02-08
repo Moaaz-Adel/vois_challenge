@@ -15,6 +15,7 @@ target/
 
 # Allure Report Folder
 allure-results/
+allure-report/
 
 # Package Files #
 *.jar
