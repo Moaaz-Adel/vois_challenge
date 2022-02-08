@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
+
 public class ElementActions {
 
     public static void click(WebDriver driver, By elementLocator) {
@@ -19,7 +21,7 @@ public class ElementActions {
     }
 
     public static void selectFromDropDown(WebDriver driver, By elementLocator, int index) {
-        var availableOptions = (new Select(driver.findElement(elementLocator))).getOptions();
+        List<WebElement> availableOptions = (new Select(driver.findElement(elementLocator))).getOptions();
         new Select(driver.findElement(elementLocator)).selectByIndex(index);
     }
 
