@@ -121,6 +121,12 @@ Please follow this link for interactive Mind-Map:
    ====>  [MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
    
    ![image](https://user-images.githubusercontent.com/66737098/153052818-920b117f-e387-4e91-96ba-6ea4d5a0fb4a.png)
+   
+### For suggested Tests needs to be automated please follow the following link:
+
+   ====>   [To be Automated](https://www.notion.so/VOIS-Challenge-Scenarios-to-be-automated-11052232069f427b9e8e8c3acf2076fd)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
