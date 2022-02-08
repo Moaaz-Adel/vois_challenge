@@ -70,5 +70,12 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    mvn test
    ```
    
+   
+### Scenarios
+
+Please follow this link for interactive Mind-Map:
+
+[MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
