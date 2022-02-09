@@ -51,8 +51,7 @@ public class TestAPIs {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         request.body(requestParams.toJSONString());
-
         Response response = request.post(apiUrl + "/users/" + randomNum + "/posts");
-        Assert.assertTrue(response.statusCode() == 201);
+        Assert.assertEquals(response.statusCode(), 201);
     }
 }

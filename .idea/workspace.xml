@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="73c62fc2-966c-41be-8cb4-a7ba9f52c942" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/TestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/TestAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/helpers/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/helpers/Helpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestPlacingOrder">
+  <component name="RunManager" selected="TestNG.TestAPIs.createPostTest">
     <configuration name="TestAPIs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vois_challenge" />
       <extension name="coverage">
@@ -184,11 +186,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestAPIs.createPostTest" />
         <item itemvalue="TestNG.TestPlacingOrder" />
         <item itemvalue="TestNG.TestAPIs" />
         <item itemvalue="TestNG.TestPlacingOrder.placeOrderTest" />
         <item itemvalue="TestNG.TestAPIs.getUserIdAndPrintEmailAddressTest" />
-        <item itemvalue="TestNG.TestAPIs.createPostTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,11 +223,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ui/tests/TestPlacingOrder.java</url>
           <line>42</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/api/tests/TestAPIs.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
