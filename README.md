@@ -130,10 +130,13 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 ## Notes:
 
 > All interactions are configured refactored to include
+
 > "Explicit Watis" to decrease Flakeness
+
 > The refactored methods are documented for ease of use 
 
 > Following Page Object Model Design Pattern
+
 > Following Coding Standards and Best Practices
 --------------------------------
    
