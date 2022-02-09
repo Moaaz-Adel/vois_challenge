@@ -79,6 +79,26 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
 
 -----------------
 
+### Pages found at:
+
+```
+/src/main/java/ui/com/automationpracticesite/pages/
+```
+
+### UI Test found at:
+
+```
+/src/test/java/ui/tests
+```
+
+
+### API Test found at:
+
+```
+/src/test/java/api/tests
+```
+------------------
+
 
 ## Challenges
 
