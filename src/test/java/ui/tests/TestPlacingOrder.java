@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ui.com.automationpracticesite.pages.AuthPage;
 
-public class TestMe extends BaseTests {
+public class TestPlacingOrder extends BaseTests {
 
     @Test
     public void placeOrderTest() {
