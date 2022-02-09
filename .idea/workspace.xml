@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73c62fc2-966c-41be-8cb4-a7ba9f52c942" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/TestMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/TestPlacingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAPIs">
+  <component name="RunManager" selected="TestNG.TestPlacingOrder">
     <configuration name="TestAPIs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vois_challenge" />
       <extension name="coverage">
@@ -95,24 +94,6 @@
       <option name="PACKAGE_NAME" value="api" />
       <option name="MAIN_CLASS_NAME" value="api.tests.TestAPIs" />
       <option name="METHOD_NAME" value="createPostTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAPIs.getUserAssociatedPostsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vois_challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.TestAPIs" />
-      <option name="METHOD_NAME" value="getUserAssociatedPostsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,6 +136,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPlacingOrder.placeOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vois_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.TestPlacingOrder" />
+      <option name="METHOD_NAME" value="placeOrderTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="vois_challenge" />
       <shortenClasspath name="NONE" />
@@ -179,17 +178,17 @@
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.TestAPIs" />
       <item itemvalue="TestNG.TestAPIs.getUserIdAndPrintEmailAddressTest" />
-      <item itemvalue="TestNG.TestAPIs.getUserAssociatedPostsTest" />
       <item itemvalue="TestNG.TestAPIs.createPostTest" />
       <item itemvalue="TestNG.TestPlacingOrder" />
+      <item itemvalue="TestNG.TestPlacingOrder.placeOrderTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestAPIs" />
         <item itemvalue="TestNG.TestPlacingOrder" />
+        <item itemvalue="TestNG.TestAPIs" />
+        <item itemvalue="TestNG.TestPlacingOrder.placeOrderTest" />
         <item itemvalue="TestNG.TestAPIs.getUserIdAndPrintEmailAddressTest" />
         <item itemvalue="TestNG.TestAPIs.createPostTest" />
-        <item itemvalue="TestNG.TestAPIs.getUserAssociatedPostsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,5 +213,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ui/tests/TestPlacingOrder.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/api/tests/TestAPIs.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
