@@ -15,6 +15,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#Run-Tests">Run Tests</a></li>
+        <li><a href="#Scenarios">Scenarios</a></li>
       </ul>
     </li>
   </ol>
