@@ -23,7 +23,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## VOIS Challenge
+## VOIS Challenge 🤖
 
 ![image](https://user-images.githubusercontent.com/66737098/153053941-a3c0cccc-bfce-47f7-a477-7acc25ae82ed.png)
 
@@ -75,7 +75,44 @@ Download and install  ====> [MAVEN](https://maven.apache.org/install.html)
    
 ### After testing finishes, a report will be opened automatically like the following
 
-   
+![image](https://user-images.githubusercontent.com/66737098/153090168-10894799-0ba8-41eb-8081-49504141588a.png)
+
+-----------------
+
+
+## Challenges
+
+### Challenge #1 (UI)
+  Placing an order with UI Interaction by following these steps:
+  
+  1. CreateingSelect “Blouses” Subcategory in “Women” Category a new account user
+  2. Selecting “Blouses” Subcategory in “Women” Category
+  3. Select resulted product
+  4. Follow checkout procedure
+  5. Confirm order by selecting bank wire optiob
+  6. Validate order was placed from order history page
+
+
+### Challenge #2 (APIs)
+  Test #1:
+  GET random userId and print its email address to Console
+  Test #2:
+  Using userId from Test1, get this user’s associated posts and verify they contains a valid Post IDs (an Integer between 1 and 100)
+  Test #3:
+  POST new Post with the same UserId
+  
+  Note:
+  Every run will take new userId
+  
+-------------------
+##Notes:
+
+> All interactions are configured refactored to include
+> "Explicit Watis" to decrease Flakeness
+
+> Following Page Object Model Design Pattern
+> Following Coding Standards and Best Practices
+--------------------------------
    
 ### Scenarios
 
@@ -84,6 +121,15 @@ Please follow this link for interactive Mind-Map:
    ====>  [MindMap](https://coggle.it/diagram/YgKgtTieqDCciCC_/t/automationpractice)
    
    ![image](https://user-images.githubusercontent.com/66737098/153052818-920b117f-e387-4e91-96ba-6ea4d5a0fb4a.png)
+   
+### For suggested Tests needs to be automated please follow the following link:
+
+   ====>   [To be Automated](https://www.notion.so/VOIS-Challenge-Scenarios-to-be-automated-11052232069f427b9e8e8c3acf2076fd)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## 🤖 Thanks and Happt Testing 🐞
 
